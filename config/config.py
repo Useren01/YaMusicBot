@@ -17,11 +17,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "14065507"))
-API_HASH = getenv("API_HASH", "6628dfb7524ced6b536ea88cfb743878")
+API_ID = int(getenv("API_ID", "j"))
+API_HASH = getenv("API_HASH", "j")
 
-## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5296897168:AAHuGNf78aVAOmC-OWnMm-fk7K3xSxyBSNc")
+## Get it from @Botfather in Te")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kontol:kontol@cluster0.rg9ig.mongodb.net/test?myFirstDatabase?retryWrites=true&w=majority")
@@ -37,14 +36,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001708765292"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-l"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ResEx Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1229585839").split())
+    map(int, getenv("OWNER_ID", "o").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +55,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sourcemas/YaMusicBot",
+    "",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,13 +64,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "vvvznn"
+    "CHANNEL_SUDO", ""
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "𝖳𝖾𝖠𝗆 𝖱𝗌𝖤𝗑𝖲"
+    "YAFA_NAME", ""
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/vvvznn"
+   " YAFA_CHANNEL", ""
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
